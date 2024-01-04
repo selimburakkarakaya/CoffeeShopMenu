@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop || Add To Cart</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- content of website -->
+    <div class="container">
+        <!-- header -->
+        <header>
+            <a href="#" class="logo"><img src="./images/logo.jpg" alt="logo"></a>
+            <ul class="navlist">
+                <li class="links"><a href="#" class="items">Home</a></li>
+                <li class="links"><a href="#" class="items active">Menu</a></li>
+                <li class="links"><a href="#" class="items">Book a table</a></li>
+                <li class="links"><a href="#" class="items">Contact</a></li>
+            </ul>
+
+            <div class="right-side">
+                <div class="searchBox">
+                    <i class="bx bx-search"></i>
+                    <input type="text">
+                </div>
+
+                <a href="#" class="shopping-cart-icon">
+                    <span class="quantity">0</span>
+                    <i class="bx bx-shopping-bag bx-tada-hover"></i>
+                </a>
+
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+        </header>
+
+        <!-- products -->
+        <div class="list"></div>
+
+        <footer>
+            <p class="copy-right">© 2024 Coffee Shop - All rights reserved!</p>
+            <div class="social">
+                <a href="#"><i class="bx bx-sm bxl-instagram bx-tada-hover"></i></a>
+                <a href="#"><i class="bx bx-sm bxl-facebook bx-tada-hover"></i></a>
+                <a href="#"><i class="bx bx-sm bxl-google bx-tada-hover"></i></a>
+            </div>
+            <p class="created-by">Created By <span>SBK</span></p>
+        </footer>
+
+    </div>
+
+
+    <!-- content of cart -->
+    <div class="cart">
+        <h2 class="cart-title">
+            Orders
+        </h2>
+
+        <p class="date"></p>
+
+        <div class="listCart"></div>
+
+        <div class="total">
+            <div class="total-title">Total Price:</div>
+            <div class="total-price">$0</div>
+        </div>
+
+        <button type="button" class="btn-buy">Continue To Payment</button>
+
+        <i class="bx bx-x" id="cart-close"></i>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
