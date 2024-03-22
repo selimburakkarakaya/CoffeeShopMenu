@@ -4,7 +4,7 @@ This JavaScript code adds products to a website and provides a shopping cart fun
 
 The basic functions are:
 
-1. Adding Products: According to the specific products list, product cards are added to the website. Each product card has an image, product name, price, and an add to cart button.
+1. Adding Products: According to the specific products list, product cards are added to the website. Each product card has an image, product name, price and an add to cart button.
 
 2. Shopping Cart: Users can add products to the cart by clicking the "Add to Cart" button under the product cards. Once added to the cart, a list of products added to the cart will be shown. Next to each product are increase and decrease buttons to increase or decrease the amount of product.
 
